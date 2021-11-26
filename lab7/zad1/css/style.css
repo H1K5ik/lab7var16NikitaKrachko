@@ -1,0 +1,173 @@
+html{
+  box-sizing: border-box;
+  max-height: 2400px;
+}
+*,*::before,*::after{
+  box-sizing: inherit;
+  max-height: 2400px;
+}
+body{
+  font-family: Arial;
+  font-style: normal;
+  font_size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  text-decoration: none;
+max-height: 2400px;
+  
+}
+.wrapper{
+  
+  max-width: 1500px;
+  margin: 0 auto;
+
+}
+@media(max-width: 530px){
+  .main__main{
+    flex-wrap: wrap;
+  }
+}
+
+   
+
+.header__intro{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  max-width: 800px;
+  margin-left: 10%;
+}
+.header__item1{
+  max-width: 400px;
+}
+.header__item2{
+  margin-left: 20px;
+  margin-top: 20px;
+  max-width: 1000px;
+}
+.header__text1{
+  font-weight: bold;
+   font-size: 25px;
+}
+.header__text2{
+  max-width: 500px;
+
+}
+/*HEADER END*/
+
+
+/*ZA HEADEROM START*/
+.main__start{
+  
+  height: 8em;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+   background-color: #F8E9E8; 
+   margin-top: 2%;
+   
+}
+.main__flex{
+  margin-top: 3em;
+  display: flex;
+  max-width: 100%;
+  
+}
+.start__item{
+    width: 10%;
+    margin-right: 6.666%;
+    border: 1px solid black;
+    height: 2em;
+    background-color: rgba(218,24,34,0.2);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.main__main{
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 6.35%;
+  margin-left: 6%;
+  display: flex;
+  
+
+}
+.main__item1{
+  max-width: 80%;
+}
+.item1__blocks{
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.item1__i1__text1{
+  max-width: 50%;
+  font-size: 25px;
+  
+}
+.item1__i1__text2{
+  max-width: 80%;
+  font-size: 25px;
+  
+}
+.main__item2{
+ margin-left: 10%;
+ max-width: 20%; 
+
+}
+.main__i2__t1{
+  
+  max-width: 1000px;
+  font-size: 36px;
+  font-weight: bold;
+  
+}
+.main__i2__t2{
+  font-size: 25px;
+  width: 100%;
+  margin-left: 0 auto;
+  
+}
+.main__i2__t3{
+  margin-top: 20%;
+  white-space: nowrap;
+  
+  font-size: 36px;
+  font-weight: bold;
+  
+}
+.main__i2__t4{
+  font-size: 25px;
+  
+  margin-left: 0 auto;
+}
+.main__i2__t5{
+  margin-top: 20%;
+  
+  white-space: nowrap;
+  font-size: 36px;
+  font-weight: bold;
+  
+}
+.main__i2__t6{
+  font-size: 25px;
+  
+  margin-left: 0 auto;
+}
+.end__item{
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.main__end{
+  padding-top: 5%;
+  height: 8em;
+  
+   background-color: #A8E9E8; 
+   
+   
+}
+.end__item{
+  margin-right: 1em;
+  position: relative;
+  bottom: 2em;
+  left: 0;
+
+}
